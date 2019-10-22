@@ -7,7 +7,8 @@ pipeline {
         sh '''git pull
 '''
         sh 'gradle build'
-        sh 'java -jar build/libs/spring-petclinic-2.2.0.BUILD-SNAPSHOT.jar'
+        sh '''./mvnw package
+java -jar target/*.jar'''
       }
     }
   }
