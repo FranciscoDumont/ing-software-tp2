@@ -4,10 +4,10 @@ pipeline {
     stage('Build') {
       steps {
         git(url: 'https://github.com/FranciscoDumont/ing-software-tp2.git', branch: 'master')
-        sh '''git clone https://github.com/FranciscoDumont/ing-software-tp2.git
-gradle build
+        sh '''git pull
 '''
-        sh 'jar'
+        sh 'gradle build'
+        sh 'java -jar build/libs/spring-petclinic-2.2.0.BUILD-SNAPSHOT.jar'
       }
     }
   }
