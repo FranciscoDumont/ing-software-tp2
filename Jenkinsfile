@@ -7,6 +7,7 @@ pipeline {
         sh '''git clone https://github.com/FranciscoDumont/ing-software-tp2.git
 gradle build
 '''
+        sh 'jar'
       }
     }
   }
