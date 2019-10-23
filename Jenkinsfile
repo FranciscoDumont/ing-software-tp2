@@ -8,6 +8,7 @@ pipeline {
 '''
         sh 'gradle build'
         sh './mvnw package'
+        sh 'java -jar target/*.jar'
       }
     }
   }
