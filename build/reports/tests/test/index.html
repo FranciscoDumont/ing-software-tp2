@@ -20,7 +20,7 @@
 <tr>
 <td>
 <div class="infoBox" id="tests">
-<div class="counter">0</div>
+<div class="counter">40</div>
 <p>tests</p>
 </div>
 </td>
@@ -32,13 +32,13 @@
 </td>
 <td>
 <div class="infoBox" id="ignored">
-<div class="counter">0</div>
+<div class="counter">1</div>
 <p>ignored</p>
 </div>
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">-</div>
+<div class="counter">5.625s</div>
 <p>duration</p>
 </div>
 </td>
@@ -47,8 +47,8 @@
 </div>
 </td>
 <td>
-<div class="infoBox success" id="successRate">
-<div class="percent">-</div>
+<div class="infoBox skipped" id="successRate">
+<div class="percent">100%</div>
 <p>successful</p>
 </div>
 </td>
@@ -58,10 +58,102 @@
 <div id="tabs">
 <ul class="tabLinks">
 <li>
-<a href="#tab0">Classes</a>
+<a href="#tab0">Ignored tests</a>
+</li>
+<li>
+<a href="#tab1">Packages</a>
+</li>
+<li>
+<a href="#tab2">Classes</a>
 </li>
 </ul>
 <div id="tab0" class="tab">
+<h2>Ignored tests</h2>
+<ul class="linkList">
+<li>
+<a href="classes/org.springframework.samples.petclinic.system.CrashControllerTests.html">CrashControllerTests</a>.
+<a href="classes/org.springframework.samples.petclinic.system.CrashControllerTests.html#testTriggerException()">testTriggerException()</a>
+</li>
+</ul>
+</div>
+<div id="tab1" class="tab">
+<h2>Packages</h2>
+<table>
+<thead>
+<tr>
+<th>Package</th>
+<th>Tests</th>
+<th>Failures</th>
+<th>Ignored</th>
+<th>Duration</th>
+<th>Success rate</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="success">
+<a href="packages/org.springframework.samples.petclinic.html">org.springframework.samples.petclinic</a>
+</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0.315s</td>
+<td class="success">100%</td>
+</tr>
+<tr>
+<td class="success">
+<a href="packages/org.springframework.samples.petclinic.model.html">org.springframework.samples.petclinic.model</a>
+</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0.041s</td>
+<td class="success">100%</td>
+</tr>
+<tr>
+<td class="success">
+<a href="packages/org.springframework.samples.petclinic.owner.html">org.springframework.samples.petclinic.owner</a>
+</td>
+<td>23</td>
+<td>0</td>
+<td>0</td>
+<td>3.404s</td>
+<td class="success">100%</td>
+</tr>
+<tr>
+<td class="success">
+<a href="packages/org.springframework.samples.petclinic.service.html">org.springframework.samples.petclinic.service</a>
+</td>
+<td>11</td>
+<td>0</td>
+<td>0</td>
+<td>0.821s</td>
+<td class="success">100%</td>
+</tr>
+<tr>
+<td class="skipped">
+<a href="packages/org.springframework.samples.petclinic.system.html">org.springframework.samples.petclinic.system</a>
+</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>0s</td>
+<td class="skipped">-</td>
+</tr>
+<tr>
+<td class="success">
+<a href="packages/org.springframework.samples.petclinic.vet.html">org.springframework.samples.petclinic.vet</a>
+</td>
+<td>3</td>
+<td>0</td>
+<td>0</td>
+<td>1.044s</td>
+<td class="success">100%</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="tab2" class="tab">
 <h2>Classes</h2>
 <table>
 <thead>
@@ -74,7 +166,108 @@
 <th>Success rate</th>
 </tr>
 </thead>
-<tbody/>
+<tbody>
+<tr>
+<td class="success">
+<a href="classes/org.springframework.samples.petclinic.PetclinicIntegrationTests.html">org.springframework.samples.petclinic.PetclinicIntegrationTests</a>
+</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0.315s</td>
+<td class="success">100%</td>
+</tr>
+<tr>
+<td class="success">
+<a href="classes/org.springframework.samples.petclinic.model.ValidatorTests.html">org.springframework.samples.petclinic.model.ValidatorTests</a>
+</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0.041s</td>
+<td class="success">100%</td>
+</tr>
+<tr>
+<td class="success">
+<a href="classes/org.springframework.samples.petclinic.owner.OwnerControllerTests.html">org.springframework.samples.petclinic.owner.OwnerControllerTests</a>
+</td>
+<td>11</td>
+<td>0</td>
+<td>0</td>
+<td>0.711s</td>
+<td class="success">100%</td>
+</tr>
+<tr>
+<td class="success">
+<a href="classes/org.springframework.samples.petclinic.owner.PetControllerTests.html">org.springframework.samples.petclinic.owner.PetControllerTests</a>
+</td>
+<td>6</td>
+<td>0</td>
+<td>0</td>
+<td>0.628s</td>
+<td class="success">100%</td>
+</tr>
+<tr>
+<td class="success">
+<a href="classes/org.springframework.samples.petclinic.owner.PetTypeFormatterTests.html">org.springframework.samples.petclinic.owner.PetTypeFormatterTests</a>
+</td>
+<td>3</td>
+<td>0</td>
+<td>0</td>
+<td>0.173s</td>
+<td class="success">100%</td>
+</tr>
+<tr>
+<td class="success">
+<a href="classes/org.springframework.samples.petclinic.owner.VisitControllerTests.html">org.springframework.samples.petclinic.owner.VisitControllerTests</a>
+</td>
+<td>3</td>
+<td>0</td>
+<td>0</td>
+<td>1.892s</td>
+<td class="success">100%</td>
+</tr>
+<tr>
+<td class="success">
+<a href="classes/org.springframework.samples.petclinic.service.ClinicServiceTests.html">org.springframework.samples.petclinic.service.ClinicServiceTests</a>
+</td>
+<td>11</td>
+<td>0</td>
+<td>0</td>
+<td>0.821s</td>
+<td class="success">100%</td>
+</tr>
+<tr>
+<td class="skipped">
+<a href="classes/org.springframework.samples.petclinic.system.CrashControllerTests.html">org.springframework.samples.petclinic.system.CrashControllerTests</a>
+</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>0s</td>
+<td class="skipped">-</td>
+</tr>
+<tr>
+<td class="success">
+<a href="classes/org.springframework.samples.petclinic.vet.VetControllerTests.html">org.springframework.samples.petclinic.vet.VetControllerTests</a>
+</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0.996s</td>
+<td class="success">100%</td>
+</tr>
+<tr>
+<td class="success">
+<a href="classes/org.springframework.samples.petclinic.vet.VetTests.html">org.springframework.samples.petclinic.vet.VetTests</a>
+</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0.048s</td>
+<td class="success">100%</td>
+</tr>
+</tbody>
 </table>
 </div>
 </div>
@@ -85,7 +278,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 5.6.2</a> at Oct 22, 2019, 3:45:09 PM</p>
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at Oct 23, 2019, 1:55:52 PM</p>
 </div>
 </div>
 </body>

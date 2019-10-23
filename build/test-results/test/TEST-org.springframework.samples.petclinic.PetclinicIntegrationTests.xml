@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.samples.petclinic.PetclinicIntegrationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-10-23T16:55:51" hostname="manjaro" time="0.315">
+  <properties/>
+  <testcase name="testFindAll()" classname="org.springframework.samples.petclinic.PetclinicIntegrationTests" time="0.315"/>
+  <system-out><![CDATA[2019-10-23 13:55:37.837  INFO 28573 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [org.springframework.samples.petclinic.PetclinicIntegrationTests], using SpringBootContextLoader
+2019-10-23 13:55:37.840  INFO 28573 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [org.springframework.samples.petclinic.PetclinicIntegrationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-10-23 13:55:37.841  INFO 28573 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [org.springframework.samples.petclinic.PetclinicIntegrationTests]: PetclinicIntegrationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-10-23 13:55:37.864  INFO 28573 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration org.springframework.samples.petclinic.PetClinicApplication for test class org.springframework.samples.petclinic.PetclinicIntegrationTests
+2019-10-23 13:55:37.892  INFO 28573 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2019-10-23 13:55:37.893  INFO 28573 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@75b12a84, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1511e6ba, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@23dc0409, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@ea4d94f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@72bd2715, org.springframework.test.context.transaction.TransactionalTestExecutionListener@68033bce, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2b3c968b, org.springframework.test.context.event.EventPublishingTestExecutionListener@3fa5c02, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@18e446e7, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@69c8d37e, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@268f8802, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@77c4da9d, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4d2d79fc]
+
+
+              |\      _,,,--,,_
+             /,`.-'`'   ._  \-;;,_
+  _______ __|,4-  ) )_   .;.(__`'-'__     ___ __    _ ___ _______
+ |       | '---''(_/._)-'(_\_)   |   |   |   |  |  | |   |       |
+ |    _  |    ___|_     _|       |   |   |   |   |_| |   |       | __ _ _
+ |   |_| |   |___  |   | |       |   |   |   |       |   |       | \ \ \ \
+ |    ___|    ___| |   | |      _|   |___|   |  _    |   |      _|  \ \ \ \
+ |   |   |   |___  |   | |     |_|       |   | | |   |   |     |_    ) ) ) )
+ |___|   |_______| |___| |_______|_______|___|_|  |__|___|_______|  / / / /
+ ==================================================================/_/_/_/
+
+:: Built with Spring Boot :: 2.2.0.RELEASE
+
+
+2019-10-23 13:55:37.989  INFO 28573 --- [    Test worker] o.s.s.p.PetclinicIntegrationTests        : Starting PetclinicIntegrationTests on manjaro with PID 28573 (started by panchi in /home/panchi/Repos/spring-petclinic)
+2019-10-23 13:55:37.990  INFO 28573 --- [    Test worker] o.s.s.p.PetclinicIntegrationTests        : No active profile set, falling back to default profiles: default
+2019-10-23 13:55:39.390  INFO 28573 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-23 13:55:39.417  INFO 28573 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27ms. Found 4 repository interfaces.
+2019-10-23 13:55:40.034  INFO 28573 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-23 13:55:41.997  INFO 28573 --- [    Test worker] org.ehcache.core.EhcacheManager          : Cache 'vets' created in EhcacheManager.
+2019-10-23 13:55:42.068  INFO 28573 --- [    Test worker] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=vets
+2019-10-23 13:55:42.099  INFO 28573 --- [    Test worker] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=vets
+2019-10-23 13:55:42.363  INFO 28573 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-10-23 13:55:42.426  WARN 28573 --- [    Test worker] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=org.hsqldb.jdbcDriver was not found, trying direct instantiation.
+2019-10-23 13:55:42.661  INFO 28573 --- [    Test worker] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+2019-10-23 13:55:42.684  INFO 28573 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-10-23 13:55:43.255  INFO 28573 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-10-23 13:55:43.275  INFO 28573 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2019-10-23 13:55:43.578  INFO 28573 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-10-23 13:55:43.579  INFO 28573 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-23 13:55:45.480  WARN 28573 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-23 13:55:46.414  INFO 28573 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-23 13:55:51.357  INFO 28573 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 13 endpoint(s) beneath base path '/manage'
+2019-10-23 13:55:51.538  INFO 28573 --- [    Test worker] o.s.s.p.PetclinicIntegrationTests        : Started PetclinicIntegrationTests in 13.634 seconds (JVM running for 48.566)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
