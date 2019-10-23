@@ -7,8 +7,7 @@ pipeline {
         sh '''git pull
 '''
         sh 'gradle build'
-        sh '''./mvnw package
-java -jar target/*.jar'''
+        sh './mvnw package'
       }
     }
   }
