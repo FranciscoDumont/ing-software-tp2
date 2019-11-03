@@ -17,7 +17,7 @@ pipeline {
     }
     stage('Validate') {
       steps {
-        sh 'echo anime'
+        sh 'echo hola'
       }
     }
     stage('Deploy') {
